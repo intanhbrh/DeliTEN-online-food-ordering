@@ -6,16 +6,14 @@ It allows students and staff to browse menus, place orders online, and enjoy con
 ---
 
 ## ✨ Features
-- 👤 User Roles: Admin, Vendor, Customer  
+- 👤 User Roles: Admin, Customer  
 - 🛒 Food menu browsing & shopping cart  
 - 💳 Online order & checkout system  
 - 📦 Order tracking with real-time status updates  
-- ⚙️ Vendor panel to manage food items  
+- ⚙️ Vendor(Admin) panel to manage food items  
 - 🔐 Secure login & registration  
 
 ---
-
-## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS  
 - **Backend:** PHP  
 - **Database:** MySQL  
