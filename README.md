@@ -24,7 +24,9 @@ It allows students and staff to browse menus, place orders online, and enjoy con
 
 ## 📂 Project Structure
 ### Login Page
-(images/reg.png)
+![Login Page](images/reg.png)
 
 ### Menu Page
-(images/menu.png)
+![Menu Page](images/menu.png)
+
+
