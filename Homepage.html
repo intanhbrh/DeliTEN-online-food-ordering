@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> DeliTEN </title> 
+	<link rel="icon" type="image/x-icon" href="icon.ico"> 
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>	
+<body>
+<div class="aside-left">
+</div>
+
+<div class="container">
+	<nav class="header">
+		<div class="logo">
+			<h1> DeliTEN. </h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="Homepage.html">Home</a></li>
+				<li><a href="About_us.html"> About </a></li>
+				
+				
+			</ul>
+		</div>
+	</nav>
+		
+	<div class="center_con">
+	
+		<h1> Welcome To DeliTEN</h1>
+	
+	
+
+<button class="open-button" onclick="openForm()"> Login  </button>
+</div>
+<div class="form-popup" id="myForm">
+  <form action="loginverify.php" method="post" class="form-container">
+   <p style='color:black;'> 
+   <h1>Login</h1>
+
+	<label for="UniID"><b>UNITEN ID<b/></label>
+	<input type="text" placeholder="Enter Your ID" name="UniID" required>
+
+    <label for="Password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="Password" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="reset" class="btn cancel" onclick="closeForm()">Close</button>
+	</p>
+	Not register yet? Click<a style="color:blue" href="Register.php"> here</a>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+	
+</body> 
+</form>
+</html>
